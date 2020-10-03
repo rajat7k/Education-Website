@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TAKSHILA</title>
+
+  <style media="screen">
+    body {
+      /* color: */
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: url(Images/bulb.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    .name {
+      color: white;
+      font-size: 60px;
+      font-family: cursive;
+      font-style: italic;
+      font-weight: bold;
+      padding-top: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    h4 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 200;
+    }
+
+    .box {
+      width: 300px;
+      padding: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      text-align: center;
+    }
+
+    .box input[name="box"],
+    .box input[name="dob"] {
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid #3498db;
+      padding: 14px 10px;
+      width: 200px;
+      outline: none;
+      color: white;
+      border-radius: 25px;
+      transition: 0.5s;
+    }
+
+    .box input[name="box"]:focus,
+    .box input[name="dob"]:focus {
+      width: 250px;
+      border: 2px solid #11f632;
+    }
+
+    h4:hover {
+      color: red;
+
+    }
+
+    .box input[type="submit"] {
+      border: 0px;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid #11f632;
+      ;
+      padding: 14px 40px;
+      outline: none;
+      color: white;
+      border-radius: 25px;
+      transition: 0.5s;
+    }
+
+    .box input[type="submit"]:hover {
+      background: #11f632;
+    }
+
+    .sidemenu {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-220px);
+    }
+
+    .sidemenu a {
+      background-color: #1aa6e4;
+      font-size: 22px;
+      display: block;
+      color: white;
+      width: 130px;
+      padding: 9px;
+      text-decoration: none;
+      margin: 8px 0;
+      border-radius: 10px;
+      margin-left: -100px;
+    }
+
+    .sidemenu a:hover {
+      margin-left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidemenu">
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="explore.html">Explore</a>
+  </div>
+  <form class="box" action="" method="post">
+    <p class="name">TAKSHILA</p>
+    <h1>Signup</h1>
+    <input type="name" name="box" value="" placeholder="NAME">
+    <input type="email" name="box" value placeholder="E-mail">
+    <h4>Date of birth</h4>
+    <input type="date" name="dob" value="">
+    <input type="tel" placeholder="Number" name="box" value="">
+    <input type="submit" name="" value="Signup">
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,465 @@
+body {
+  background: black;
+  color: white;
+}
+
+.heading {
+  color: black;
+  height: 200px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  background: #181515;
+  width: 100%;
+  height: 350px;
+  background: url(Images/book2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.heading h1 {
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 60px;
+  margin-top: 70px;
+  margin-left: 50px;
+  color: #5cda32;
+}
+
+.menu {
+  background: #191919;
+  padding: 15px;
+}
+
+.menu h3 {
+  font-size: 34px;
+  font-style: oblique;
+  font-weight: 400;
+  color: #55e81f;
+  padding: 0px 35px;
+}
+
+.menu a {
+  color: inherit;
+  text-decoration: none;
+  font-style: oblique;
+  font-weight: 100;
+  font-size: 23px;
+}
+
+.menu a:hover {
+  font-size: 30px;
+  background: #5cda32;
+  color: white;
+  border: #5cda32 solid 6px;
+  transition: 0.25s;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.menu li {
+  display: block;
+  margin: 15px 20px;
+}
+
+.ds {
+  margin-top: 150px;
+  padding: 25px;
+  background: #191919;
+  height: 700px;
+}
+
+.ds h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.ds iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.ds p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.py {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.py h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.py iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.py p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.js {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.js h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.js iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.js p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.pt {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.pt h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.pt iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.pt p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.dsc {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.dsc h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.dsc iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.dsc p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.sql {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.sql h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.sql iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.sql p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.java {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.java h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.java iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.java p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.c {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.c h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.c iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.c p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.HC {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.HC h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.HC iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.HC p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+.api {
+  margin-top: 50px;
+  padding: 25px;
+  background: #191919;
+  clear: both;
+  height: 700px;
+}
+
+.api h2 {
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: cursive;
+  color: #55e81f;
+  text-align: center;
+}
+
+.api iframe {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 50px;
+  clear: both;
+}
+
+.api p {
+  float: right;
+  padding: 15px;
+  width: 400px;
+  margin-right: 300px;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 300;
+  font-family: serif;
+}
+
+footer {
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: url(Images/book2.jpg) no-repeat;
+  background-size: cover;
+}
+
+footer p {
+  float: right;
+  clear: both;
+}
+
+.contact {
+  float: right;
+  margin-right: 40px;
+  font-style: oblique;
+  font-family: serif;
+}
+
+.sidemenu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-220px);
+}
+
+.sidemenu a {
+  background-color: #1aa6e4;
+  font-size: 22px;
+  display: block;
+  width: 130px;
+  padding: 9px;
+  text-decoration: none;
+  margin: 8px 0;
+  border-radius: 10px;
+  color: inherit;
+  margin-left: -100px;
+}
+
+.sidemenu a:hover {
+  margin-left: 0;
+}
